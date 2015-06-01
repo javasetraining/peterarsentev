@@ -13,7 +13,7 @@ public class Calculate {
         int first = Integer.valueOf(args[0]);
         int second = Integer.valueOf(args[1]);
         int summ = first + second; //summ of
-        int div = first / second; //division
+//        int div = first / second; //division
         System.out.println("sum = " + summ);
 
 
