@@ -23,6 +23,15 @@ public class Calculator {
 
     }
 
+    public void calculate(String ... args) throws Exception {
+/*        this.args = args;
+        checkArgsCount();*/
+        executeOperation();
+    }
+
+    private void executeOperation() {
+    }
+
 
 //            1 метод получения переменных 
 //            2 метод - арифметическая апперация
