@@ -5,17 +5,29 @@ package calculator;
  */
 public class Calculator {
     private int result;
+    int first;
+    int second;
 
-    public void add(int ... params){
-        for(Integer param :params){
-            this.result +=param;
+    public void add(Integer integer, Integer integer1) {
+    }
 
-        }
+    public int getResult() {
+        return  this.result = first + second;
+
+
     }
-    public int getResult(){
-        return this.result;
+
+
+    public void cleanResult() {
+        this.result=0;
+
     }
-    public void cleanResult(){
-        this.result = 0;
-    }
+
+
+//            1 метод получения переменных 
+//            2 метод - арифметическая апперация
+//            3 метод - стиреть резульа
+    
+    
+    
 }

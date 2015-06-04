@@ -12,7 +12,7 @@ public class InteracRunner {
             Calculator calc = new Calculator();
             String exit = "no";
                     while (!exit.equals("yes")){
-                        System.out.println("enter firs argument; ");
+                        System.out.println("enter firs argument: ");
                         String first = reader.next();
                         System.out.println("Enter second argument: ");
                         String second = reader.next();
